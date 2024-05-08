@@ -1,7 +1,7 @@
 Executable : D:\Android\cmake\3.10.2.4988404\bin\cmake.exe
 arguments : 
--HD:\AI\OpenCV_Android_HoughLines\sdk\libcxx_helper
--DCMAKE_FIND_ROOT_PATH=D:\AI\OpenCV_Android_HoughLines\sdk\.cxx\cmake\release\prefab\x86\prefab
+-HD:\AI\detect_camera\SDK_MVCamCtrl_Android_V1.0.3\Detect_Camera\opencv\libcxx_helper
+-DCMAKE_FIND_ROOT_PATH=D:\AI\detect_camera\SDK_MVCamCtrl_Android_V1.0.3\Detect_Camera\opencv\.cxx\cmake\release\prefab\x86\prefab
 -DCMAKE_BUILD_TYPE=Release
 -DCMAKE_TOOLCHAIN_FILE=D:\Android\ndk\21.0.6113669\build\cmake\android.toolchain.cmake
 -DANDROID_ABI=x86
@@ -10,12 +10,12 @@ arguments :
 -DCMAKE_ANDROID_ARCH_ABI=x86
 -DCMAKE_ANDROID_NDK=D:\Android\ndk\21.0.6113669
 -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
--DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\AI\OpenCV_Android_HoughLines\sdk\build\intermediates\cmake\release\obj\x86
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\AI\detect_camera\SDK_MVCamCtrl_Android_V1.0.3\Detect_Camera\opencv\build\intermediates\cmake\release\obj\x86
 -DCMAKE_MAKE_PROGRAM=D:\Android\cmake\3.10.2.4988404\bin\ninja.exe
 -DCMAKE_SYSTEM_NAME=Android
 -DCMAKE_SYSTEM_VERSION=21
 -DANDROID_STL=c++_shared
--BD:\AI\OpenCV_Android_HoughLines\sdk\.cxx\cmake\release\x86
+-BD:\AI\detect_camera\SDK_MVCamCtrl_Android_V1.0.3\Detect_Camera\opencv\.cxx\cmake\release\x86
 -GNinja
 jvmArgs : 
 

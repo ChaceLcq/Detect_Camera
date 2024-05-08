@@ -5,9 +5,9 @@
     "environmentVariables": []
   },
   "cmake": {
-    "cmakeArtifactsBaseFolder": "D:\\AI\\OpenCV_Android_HoughLines\\sdk\\.cxx\\cmake\\debug\\armeabi-v7a",
-    "cmakeServerLogFile": "D:\\AI\\OpenCV_Android_HoughLines\\sdk\\.cxx\\cmake\\debug\\armeabi-v7a\\cmake_server_log.txt",
-    "cmakeWrappingBaseFolder": "D:\\AI\\OpenCV_Android_HoughLines\\sdk\\.cxx\\cxx\\debug\\armeabi-v7a",
+    "cmakeArtifactsBaseFolder": "D:\\AI\\detect_camera\\SDK_MVCamCtrl_Android_V1.0.3\\Detect_Camera\\opencv\\.cxx\\cmake\\debug\\armeabi-v7a",
+    "cmakeServerLogFile": "D:\\AI\\detect_camera\\SDK_MVCamCtrl_Android_V1.0.3\\Detect_Camera\\opencv\\.cxx\\cmake\\debug\\armeabi-v7a\\cmake_server_log.txt",
+    "cmakeWrappingBaseFolder": "D:\\AI\\detect_camera\\SDK_MVCamCtrl_Android_V1.0.3\\Detect_Camera\\opencv\\.cxx\\cxx\\debug\\armeabi-v7a",
     "effectiveConfiguration": {
       "name": "traditional-android-studio-cmake-environment",
       "description": "Composite reified CMakeSettings configuration",
@@ -15,13 +15,13 @@
       "inheritEnvironments": [
         "ndk"
       ],
-      "buildRoot": "D:\\AI\\OpenCV_Android_HoughLines\\sdk\\.cxx\\cmake\\debug\\armeabi-v7a",
+      "buildRoot": "D:\\AI\\detect_camera\\SDK_MVCamCtrl_Android_V1.0.3\\Detect_Camera\\opencv\\.cxx\\cmake\\debug\\armeabi-v7a",
       "cmakeToolchain": "D:\\Android\\ndk\\21.0.6113669\\build\\cmake\\android.toolchain.cmake",
       "cmakeExecutable": "D:\\Android\\cmake\\3.10.2.4988404\\bin\\cmake.exe",
       "variables": [
         {
           "name": "CMAKE_FIND_ROOT_PATH",
-          "value": "D:\\AI\\OpenCV_Android_HoughLines\\sdk\\.cxx\\cmake\\debug\\prefab\\armeabi-v7a\\prefab"
+          "value": "D:\\AI\\detect_camera\\SDK_MVCamCtrl_Android_V1.0.3\\Detect_Camera\\opencv\\.cxx\\cmake\\debug\\prefab\\armeabi-v7a\\prefab"
         },
         {
           "name": "CMAKE_BUILD_TYPE",
@@ -57,7 +57,7 @@
         },
         {
           "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
-          "value": "D:\\AI\\OpenCV_Android_HoughLines\\sdk\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a"
+          "value": "D:\\AI\\detect_camera\\SDK_MVCamCtrl_Android_V1.0.3\\Detect_Camera\\opencv\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a"
         },
         {
           "name": "CMAKE_MAKE_PROGRAM",
@@ -78,14 +78,14 @@
       ]
     }
   },
-  "cxxBuildFolder": "D:\\AI\\OpenCV_Android_HoughLines\\sdk\\.cxx\\cmake\\debug\\armeabi-v7a",
+  "cxxBuildFolder": "D:\\AI\\detect_camera\\SDK_MVCamCtrl_Android_V1.0.3\\Detect_Camera\\opencv\\.cxx\\cmake\\debug\\armeabi-v7a",
   "info": {
     "abi": "ARMEABI_V7A",
     "bitness": 32,
     "deprecated": false,
     "default": true
   },
-  "originalCxxBuildFolder": "D:\\AI\\OpenCV_Android_HoughLines\\sdk\\.cxx\\cmake\\debug\\armeabi-v7a",
+  "originalCxxBuildFolder": "D:\\AI\\detect_camera\\SDK_MVCamCtrl_Android_V1.0.3\\Detect_Camera\\opencv\\.cxx\\cmake\\debug\\armeabi-v7a",
   "variant": {
     "buildSystemArgumentList": [
       "-DANDROID_STL\u003dc++_shared"
@@ -105,12 +105,12 @@
         "ninjaExe": "D:\\Android\\cmake\\3.10.2.4988404\\bin\\ninja.exe"
       },
       "cmakeToolchainFile": "D:\\Android\\ndk\\21.0.6113669\\build\\cmake\\android.toolchain.cmake",
-      "cxxFolder": "D:\\AI\\OpenCV_Android_HoughLines\\sdk\\.cxx",
-      "gradleModulePathName": ":sdk",
-      "intermediatesFolder": "D:\\AI\\OpenCV_Android_HoughLines\\sdk\\build\\intermediates",
-      "makeFile": "D:\\AI\\OpenCV_Android_HoughLines\\sdk\\libcxx_helper\\CMakeLists.txt",
-      "moduleBuildFile": "D:\\AI\\OpenCV_Android_HoughLines\\sdk\\build.gradle",
-      "moduleRootFolder": "D:\\AI\\OpenCV_Android_HoughLines\\sdk",
+      "cxxFolder": "D:\\AI\\detect_camera\\SDK_MVCamCtrl_Android_V1.0.3\\Detect_Camera\\opencv\\.cxx",
+      "gradleModulePathName": ":opencv",
+      "intermediatesFolder": "D:\\AI\\detect_camera\\SDK_MVCamCtrl_Android_V1.0.3\\Detect_Camera\\opencv\\build\\intermediates",
+      "makeFile": "D:\\AI\\detect_camera\\SDK_MVCamCtrl_Android_V1.0.3\\Detect_Camera\\opencv\\libcxx_helper\\CMakeLists.txt",
+      "moduleBuildFile": "D:\\AI\\detect_camera\\SDK_MVCamCtrl_Android_V1.0.3\\Detect_Camera\\opencv\\build.gradle",
+      "moduleRootFolder": "D:\\AI\\detect_camera\\SDK_MVCamCtrl_Android_V1.0.3\\Detect_Camera\\opencv",
       "ndkDefaultAbiList": [
         "ARMEABI_V7A",
         "ARM64_V8A",
@@ -174,12 +174,12 @@
       "ndkDefaultStl": "LIBCXX_STATIC",
       "ndkVersion": "21.0.6113669",
       "project": {
-        "compilerSettingsCacheFolder": "D:\\AI\\OpenCV_Android_HoughLines\\.cxx",
-        "cxxFolder": "D:\\AI\\OpenCV_Android_HoughLines\\.cxx",
+        "compilerSettingsCacheFolder": "D:\\AI\\detect_camera\\SDK_MVCamCtrl_Android_V1.0.3\\Detect_Camera\\.cxx",
+        "cxxFolder": "D:\\AI\\detect_camera\\SDK_MVCamCtrl_Android_V1.0.3\\Detect_Camera\\.cxx",
         "isBuildOnlyTargetAbiEnabled": true,
         "isCmakeBuildCohabitationEnabled": false,
         "isNativeCompilerSettingsCacheEnabled": false,
-        "rootBuildGradleFolder": "D:\\AI\\OpenCV_Android_HoughLines",
+        "rootBuildGradleFolder": "D:\\AI\\detect_camera\\SDK_MVCamCtrl_Android_V1.0.3\\Detect_Camera",
         "sdkFolder": "D:\\Android",
         "isPrefabEnabled": false
       },
@@ -196,7 +196,7 @@
         "SYSTEM": {}
       }
     },
-    "objFolder": "D:\\AI\\OpenCV_Android_HoughLines\\sdk\\build\\intermediates\\cmake\\debug\\obj",
+    "objFolder": "D:\\AI\\detect_camera\\SDK_MVCamCtrl_Android_V1.0.3\\Detect_Camera\\opencv\\build\\intermediates\\cmake\\debug\\obj",
     "variantName": "debug",
     "validAbiList": [
       "ARMEABI_V7A",
@@ -204,8 +204,8 @@
       "X86",
       "X86_64"
     ],
-    "prefabDirectory": "D:\\AI\\OpenCV_Android_HoughLines\\sdk\\.cxx\\cmake\\debug\\prefab",
+    "prefabDirectory": "D:\\AI\\detect_camera\\SDK_MVCamCtrl_Android_V1.0.3\\Detect_Camera\\opencv\\.cxx\\cmake\\debug\\prefab",
     "prefabPackageDirectoryList": []
   },
-  "prefabFolder": "D:\\AI\\OpenCV_Android_HoughLines\\sdk\\.cxx\\cmake\\debug\\prefab\\armeabi-v7a"
+  "prefabFolder": "D:\\AI\\detect_camera\\SDK_MVCamCtrl_Android_V1.0.3\\Detect_Camera\\opencv\\.cxx\\cmake\\debug\\prefab\\armeabi-v7a"
 }

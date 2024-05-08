@@ -1,37 +1,37 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\AI\OpenCV_Android_HoughLines\sdk\java\AndroidManifest.xml:2:1-4:12
-INJECTED from D:\AI\OpenCV_Android_HoughLines\sdk\java\AndroidManifest.xml:2:1-4:12
-INJECTED from D:\AI\OpenCV_Android_HoughLines\sdk\java\AndroidManifest.xml:2:1-4:12
-INJECTED from D:\AI\OpenCV_Android_HoughLines\sdk\java\AndroidManifest.xml:2:1-4:12
-INJECTED from D:\AI\OpenCV_Android_HoughLines\sdk\java\AndroidManifest.xml:2:1-4:12
-INJECTED from D:\AI\OpenCV_Android_HoughLines\sdk\java\AndroidManifest.xml:2:1-4:12
-INJECTED from D:\AI\OpenCV_Android_HoughLines\sdk\java\AndroidManifest.xml:2:1-4:12
+ADDED from D:\AI\detect_camera\SDK_MVCamCtrl_Android_V1.0.3\Detect_Camera\opencv\java\AndroidManifest.xml:2:1-4:12
+INJECTED from D:\AI\detect_camera\SDK_MVCamCtrl_Android_V1.0.3\Detect_Camera\opencv\java\AndroidManifest.xml:2:1-4:12
+INJECTED from D:\AI\detect_camera\SDK_MVCamCtrl_Android_V1.0.3\Detect_Camera\opencv\java\AndroidManifest.xml:2:1-4:12
+INJECTED from D:\AI\detect_camera\SDK_MVCamCtrl_Android_V1.0.3\Detect_Camera\opencv\java\AndroidManifest.xml:2:1-4:12
+INJECTED from D:\AI\detect_camera\SDK_MVCamCtrl_Android_V1.0.3\Detect_Camera\opencv\java\AndroidManifest.xml:2:1-4:12
+INJECTED from D:\AI\detect_camera\SDK_MVCamCtrl_Android_V1.0.3\Detect_Camera\opencv\java\AndroidManifest.xml:2:1-4:12
+INJECTED from D:\AI\detect_camera\SDK_MVCamCtrl_Android_V1.0.3\Detect_Camera\opencv\java\AndroidManifest.xml:2:1-4:12
 	package
-		ADDED from D:\AI\OpenCV_Android_HoughLines\sdk\java\AndroidManifest.xml:3:7-27
-		INJECTED from D:\AI\OpenCV_Android_HoughLines\sdk\java\AndroidManifest.xml
-		INJECTED from D:\AI\OpenCV_Android_HoughLines\sdk\java\AndroidManifest.xml
+		ADDED from D:\AI\detect_camera\SDK_MVCamCtrl_Android_V1.0.3\Detect_Camera\opencv\java\AndroidManifest.xml:3:7-27
+		INJECTED from D:\AI\detect_camera\SDK_MVCamCtrl_Android_V1.0.3\Detect_Camera\opencv\java\AndroidManifest.xml
+		INJECTED from D:\AI\detect_camera\SDK_MVCamCtrl_Android_V1.0.3\Detect_Camera\opencv\java\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\AI\OpenCV_Android_HoughLines\sdk\java\AndroidManifest.xml
-		ADDED from D:\AI\OpenCV_Android_HoughLines\sdk\java\AndroidManifest.xml:2:1-4:12
-		INJECTED from D:\AI\OpenCV_Android_HoughLines\sdk\java\AndroidManifest.xml
+		INJECTED from D:\AI\detect_camera\SDK_MVCamCtrl_Android_V1.0.3\Detect_Camera\opencv\java\AndroidManifest.xml
+		ADDED from D:\AI\detect_camera\SDK_MVCamCtrl_Android_V1.0.3\Detect_Camera\opencv\java\AndroidManifest.xml:2:1-4:12
+		INJECTED from D:\AI\detect_camera\SDK_MVCamCtrl_Android_V1.0.3\Detect_Camera\opencv\java\AndroidManifest.xml
 	android:versionCode
-		INJECTED from D:\AI\OpenCV_Android_HoughLines\sdk\java\AndroidManifest.xml
-		ADDED from D:\AI\OpenCV_Android_HoughLines\sdk\java\AndroidManifest.xml:2:1-4:12
-		INJECTED from D:\AI\OpenCV_Android_HoughLines\sdk\java\AndroidManifest.xml
+		INJECTED from D:\AI\detect_camera\SDK_MVCamCtrl_Android_V1.0.3\Detect_Camera\opencv\java\AndroidManifest.xml
+		ADDED from D:\AI\detect_camera\SDK_MVCamCtrl_Android_V1.0.3\Detect_Camera\opencv\java\AndroidManifest.xml:2:1-4:12
+		INJECTED from D:\AI\detect_camera\SDK_MVCamCtrl_Android_V1.0.3\Detect_Camera\opencv\java\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\AI\OpenCV_Android_HoughLines\sdk\java\AndroidManifest.xml:2:11-69
+		ADDED from D:\AI\detect_camera\SDK_MVCamCtrl_Android_V1.0.3\Detect_Camera\opencv\java\AndroidManifest.xml:2:11-69
 uses-sdk
-INJECTED from D:\AI\OpenCV_Android_HoughLines\sdk\java\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from D:\AI\OpenCV_Android_HoughLines\sdk\java\AndroidManifest.xml
-INJECTED from D:\AI\OpenCV_Android_HoughLines\sdk\java\AndroidManifest.xml
-INJECTED from D:\AI\OpenCV_Android_HoughLines\sdk\java\AndroidManifest.xml
-INJECTED from D:\AI\OpenCV_Android_HoughLines\sdk\java\AndroidManifest.xml
+INJECTED from D:\AI\detect_camera\SDK_MVCamCtrl_Android_V1.0.3\Detect_Camera\opencv\java\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\AI\detect_camera\SDK_MVCamCtrl_Android_V1.0.3\Detect_Camera\opencv\java\AndroidManifest.xml
+INJECTED from D:\AI\detect_camera\SDK_MVCamCtrl_Android_V1.0.3\Detect_Camera\opencv\java\AndroidManifest.xml
+INJECTED from D:\AI\detect_camera\SDK_MVCamCtrl_Android_V1.0.3\Detect_Camera\opencv\java\AndroidManifest.xml
+INJECTED from D:\AI\detect_camera\SDK_MVCamCtrl_Android_V1.0.3\Detect_Camera\opencv\java\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from D:\AI\OpenCV_Android_HoughLines\sdk\java\AndroidManifest.xml
-		ADDED from D:\AI\OpenCV_Android_HoughLines\sdk\java\AndroidManifest.xml
-		INJECTED from D:\AI\OpenCV_Android_HoughLines\sdk\java\AndroidManifest.xml
+		INJECTED from D:\AI\detect_camera\SDK_MVCamCtrl_Android_V1.0.3\Detect_Camera\opencv\java\AndroidManifest.xml
+		ADDED from D:\AI\detect_camera\SDK_MVCamCtrl_Android_V1.0.3\Detect_Camera\opencv\java\AndroidManifest.xml
+		INJECTED from D:\AI\detect_camera\SDK_MVCamCtrl_Android_V1.0.3\Detect_Camera\opencv\java\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\AI\OpenCV_Android_HoughLines\sdk\java\AndroidManifest.xml
-		ADDED from D:\AI\OpenCV_Android_HoughLines\sdk\java\AndroidManifest.xml
-		INJECTED from D:\AI\OpenCV_Android_HoughLines\sdk\java\AndroidManifest.xml
+		INJECTED from D:\AI\detect_camera\SDK_MVCamCtrl_Android_V1.0.3\Detect_Camera\opencv\java\AndroidManifest.xml
+		ADDED from D:\AI\detect_camera\SDK_MVCamCtrl_Android_V1.0.3\Detect_Camera\opencv\java\AndroidManifest.xml
+		INJECTED from D:\AI\detect_camera\SDK_MVCamCtrl_Android_V1.0.3\Detect_Camera\opencv\java\AndroidManifest.xml

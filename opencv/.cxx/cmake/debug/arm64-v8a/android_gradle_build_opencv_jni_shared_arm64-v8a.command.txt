@@ -1,7 +1,7 @@
 Executable : D:\Android\cmake\3.10.2.4988404\bin\ninja.exe
 arguments : 
 -C
-D:\AI\OpenCV_Android_HoughLines\sdk\.cxx\cmake\debug\arm64-v8a
+D:\AI\detect_camera\SDK_MVCamCtrl_Android_V1.0.3\Detect_Camera\opencv\.cxx\cmake\debug\arm64-v8a
 opencv_jni_shared
 jvmArgs : 
 

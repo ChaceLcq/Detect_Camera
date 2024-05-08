@@ -1,3 +1,3 @@
-D:/AI/OpenCV_Android_HoughLines/sdk/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/opencv_jni_shared.dir
-D:/AI/OpenCV_Android_HoughLines/sdk/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
-D:/AI/OpenCV_Android_HoughLines/sdk/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+D:/AI/detect_camera/SDK_MVCamCtrl_Android_V1.0.3/Detect_Camera/opencv/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/opencv_jni_shared.dir
+D:/AI/detect_camera/SDK_MVCamCtrl_Android_V1.0.3/Detect_Camera/opencv/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
+D:/AI/detect_camera/SDK_MVCamCtrl_Android_V1.0.3/Detect_Camera/opencv/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir

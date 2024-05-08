@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = D:\Android\cmake\3.10.2.4988404\bin\cmake.exe -HD:\AI\OpenCV_Android_HoughLines\sdk\libcxx_helper -BD:\AI\OpenCV_Android_HoughLines\sdk\.cxx\cmake\debug\armeabi-v7a
+  command = D:\Android\cmake\3.10.2.4988404\bin\cmake.exe -HD:\AI\detect_camera\SDK_MVCamCtrl_Android_V1.0.3\Detect_Camera\opencv\libcxx_helper -BD:\AI\detect_camera\SDK_MVCamCtrl_Android_V1.0.3\Detect_Camera\opencv\.cxx\cmake\debug\armeabi-v7a
   description = Re-running CMake...
   generator = 1
 

@@ -1,7 +1,8 @@
 package com.example.hk.onecamera.ui;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+//import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -25,8 +26,9 @@ import MvCameraControlWrapper.CameraControlException;
 import MvCameraControlWrapper.MvCameraControl;
 import MvCameraControlWrapper.MvCameraControlDefines;
 
-import static MvCameraControlWrapper.MvCameraControlDefines.MV_OK;
 
+
+import static MvCameraControlWrapper.MvCameraControlDefines.MV_OK;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener, IMainView {
 
 

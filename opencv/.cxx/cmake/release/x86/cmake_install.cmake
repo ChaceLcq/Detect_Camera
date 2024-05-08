@@ -1,4 +1,4 @@
-# Install script for directory: D:/AI/OpenCV_Android_HoughLines/sdk/libcxx_helper
+# Install script for directory: D:/AI/detect_camera/SDK_MVCamCtrl_Android_V1.0.3/Detect_Camera/opencv/libcxx_helper
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/AI/OpenCV_Android_HoughLines/sdk/.cxx/cmake/release/x86/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/AI/detect_camera/SDK_MVCamCtrl_Android_V1.0.3/Detect_Camera/opencv/.cxx/cmake/release/x86/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

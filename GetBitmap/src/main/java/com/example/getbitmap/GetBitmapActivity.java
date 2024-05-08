@@ -3,7 +3,8 @@ package com.example.getbitmap;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+//import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.text.method.ScrollingMovementMethod;
 import android.view.View;
 import android.widget.Button;
@@ -22,13 +23,11 @@ import java.util.List;
 import MvCameraControlWrapper.CameraControlException;
 import MvCameraControlWrapper.MvCameraControl;
 import MvCameraControlWrapper.MvCameraControlDefines;
-
-//import org.opencv.*;
-
 import static MvCameraControlWrapper.MvCameraControlDefines.MV_OK;
 
-public class GetBitmapActivity extends AppCompatActivity implements IMainView {
+import org.opencv.*;
 
+public class GetBitmapActivity extends AppCompatActivity implements IMainView {
     private ArrayList<MvCameraControlDefines.MV_CC_DEVICE_INFO> deviceList = new ArrayList<>();
     private MaterialSpinner spinner;
     private ImageView imageView;

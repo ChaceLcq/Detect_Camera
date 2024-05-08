@@ -1,3 +1,0 @@
-D:/AI/detect_camera/SDK_MVCamCtrl_Android_V1.0.3/Detect_Camera/opencv/.cxx/cmake/debug/x86/CMakeFiles/opencv_jni_shared.dir
-D:/AI/detect_camera/SDK_MVCamCtrl_Android_V1.0.3/Detect_Camera/opencv/.cxx/cmake/debug/x86/CMakeFiles/edit_cache.dir
-D:/AI/detect_camera/SDK_MVCamCtrl_Android_V1.0.3/Detect_Camera/opencv/.cxx/cmake/debug/x86/CMakeFiles/rebuild_cache.dir

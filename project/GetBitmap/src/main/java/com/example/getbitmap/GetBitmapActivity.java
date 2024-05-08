@@ -25,9 +25,15 @@ import MvCameraControlWrapper.MvCameraControl;
 import MvCameraControlWrapper.MvCameraControlDefines;
 import static MvCameraControlWrapper.MvCameraControlDefines.MV_OK;
 
-import org.opencv.*;
+import org.opencv.android.Utils;
+import org.opencv.core.Core;
+import org.opencv.core.CvType;
+import org.opencv.core.Mat;
 
 public class GetBitmapActivity extends AppCompatActivity implements IMainView {
+    private Mat src = null;//定义一个Mat型类用于临时存放选择的图片
+    private Mat image = null;//用于存放得到的图片
+    private Mat des = null;//用于临时存放Mat型类的图片
     private ArrayList<MvCameraControlDefines.MV_CC_DEVICE_INFO> deviceList = new ArrayList<>();
     private MaterialSpinner spinner;
     private ImageView imageView;
@@ -43,6 +49,8 @@ public class GetBitmapActivity extends AppCompatActivity implements IMainView {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
+        System.out.println("OpenCV library loaded successfully.");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_get_bitmap);
         initView();
@@ -322,9 +330,12 @@ public class GetBitmapActivity extends AppCompatActivity implements IMainView {
                                 options.inSampleSize = 2;
                                 Bitmap bm = BitmapFactory.decodeByteArray(datas, 0, info.frameLen, options);
                                 Log.d("lcq","bm = " + bm);
-                                if (bm != null) {
-                                    imageView.setImageBitmap(bm);
-                                }
+                                src = new Mat(1518,2012, CvType.CV_8UC3);
+                                Utils.bitmapToMat(bm, src);
+                                Log.d("lcq","src = " + src);
+//                                if (bm != null) {
+//                                    imageView.setImageBitmap(bm);
+//                                }
                             }
                         });
                     } else {

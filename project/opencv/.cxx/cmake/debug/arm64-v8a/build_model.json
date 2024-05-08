@@ -176,7 +176,6 @@
       "project": {
         "compilerSettingsCacheFolder": "D:\\AI\\opencv\\Detect_Camera\\project\\.cxx",
         "cxxFolder": "D:\\AI\\opencv\\Detect_Camera\\project\\.cxx",
-        "ideBuildTargetAbi": "arm64-v8a,armeabi-v7a,armeabi",
         "isBuildOnlyTargetAbiEnabled": true,
         "isCmakeBuildCohabitationEnabled": false,
         "isNativeCompilerSettingsCacheEnabled": false,
@@ -200,7 +199,10 @@
     "objFolder": "D:\\AI\\opencv\\Detect_Camera\\project\\opencv\\build\\intermediates\\cmake\\debug\\obj",
     "variantName": "debug",
     "validAbiList": [
-      "ARM64_V8A"
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
     ],
     "prefabDirectory": "D:\\AI\\opencv\\Detect_Camera\\project\\opencv\\.cxx\\cmake\\debug\\prefab",
     "prefabPackageDirectoryList": []

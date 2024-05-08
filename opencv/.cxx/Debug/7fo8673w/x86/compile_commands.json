@@ -1,0 +1,7 @@
+[
+{
+  "directory": "D:/AI/工业相机/SDK_MVCamCtrl_Android_V1.0.3/Detect_Camera/opencv/.cxx/Debug/7fo8673w/x86",
+  "command": "D:\\Android\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android21 --sysroot=D:/Android/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++ -g  -fno-limit-debug-info -fPIC -o CMakeFiles\\opencv_jni_shared.dir\\dummy.cpp.o -c D:\\AI\\工业相机\\SDK_MVCamCtrl_Android_V1.0.3\\Detect_Camera\\opencv\\libcxx_helper\\dummy.cpp",
+  "file": "D:\\AI\\工业相机\\SDK_MVCamCtrl_Android_V1.0.3\\Detect_Camera\\opencv\\libcxx_helper\\dummy.cpp"
+}
+]

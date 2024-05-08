@@ -1,0 +1,2 @@
+ninja: Entering directory `D:\AI\OpenCV_Android_HoughLines\sdk\.cxx\cmake\debug\arm64-v8a'
+ninja: no work to do.

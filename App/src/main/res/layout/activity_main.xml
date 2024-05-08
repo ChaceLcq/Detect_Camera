@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hk.onecamera.ui.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/frame">
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="3dp"
+            android:textColor="#000000" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/frame">
+
+            <LinearLayout
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+
+                <Button
+                    android:id="@+id/enumBt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/button_selector"
+                    android:text="枚举设备"
+                    android:textColor="#ffffff" />
+
+
+                <Button
+                    android:id="@+id/openBt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/button_selector"
+                    android:text="打开设备"
+                    android:textColor="#ffffff" />
+
+                <Button
+                    android:id="@+id/startBt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/button_selector"
+                    android:enabled="false"
+                    android:text="开始取流"
+                    android:textColor="#ffffff" />
+
+                <Button
+                    android:id="@+id/stopBt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/button_selector"
+                    android:enabled="false"
+                    android:text="停止取流"
+                    android:textColor="#ffffff" />
+
+                <Button
+                    android:id="@+id/closeBt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/button_selector"
+                    android:enabled="false"
+                    android:text="关闭设备"
+                    android:textColor="#ffffff" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.jaredrummler.materialspinner.MaterialSpinner
+                        android:id="@+id/setPixelFormatSpinner"
+                        android:layout_width="match_parent"
+                        android:visibility="gone"
+                        android:layout_height="50dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </ScrollView>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:id="@+id/glViewGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/frame">
+
+                </RelativeLayout>
+
+
+                <TextView
+                    android:id="@+id/logTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="@null"
+                    android:fadeScrollbars="false"
+                    android:padding="5dp"
+                    android:scrollbars="vertical"
+                    android:textColor="#ff0000" />
+            </RelativeLayout>
+        </LinearLayout>
+
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="@drawable/frame">
+
+            <LinearLayout
+                android:layout_width="420dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Boolean"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/frame">
+
+
+                    <EditText
+                        android:id="@+id/inputBoolkeyEt"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center"
+                        android:hint="key"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/inputBoolValueEt"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center"
+                        android:hint="true/false"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                    <Button
+                        android:id="@+id/setValueBoolBt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/button_selector"
+                        android:text="设置bool"
+                        android:textAllCaps="false"
+                        android:textColor="#ffffff"
+                        android:textSize="12sp" />
+
+                    <Button
+                        android:id="@+id/getValueBoolBt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/button_selector"
+                        android:text="获bool取值"
+                        android:textAllCaps="false"
+                        android:textColor="#ffffff"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Int"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/frame">
+
+
+                    <EditText
+                        android:id="@+id/inputIntkeyEt"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center"
+                        android:hint="key"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/inputIntValueEt"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center"
+                        android:hint="value"
+                        android:inputType="number"
+                        android:maxLength="8"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                    <Button
+                        android:id="@+id/setValueIntBt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/button_selector"
+                        android:text="设置Int"
+                        android:textAllCaps="false"
+                        android:textColor="#ffffff"
+                        android:textSize="12sp" />
+
+                    <Button
+                        android:id="@+id/getValueIntBt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/button_selector"
+                        android:text="获Int取值"
+                        android:textAllCaps="false"
+                        android:textColor="#ffffff"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Float"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/frame">
+
+
+                    <EditText
+                        android:id="@+id/inputFloatKeyEt"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center"
+                        android:hint="key"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/inputFloatValueEt"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center"
+                        android:hint="value"
+                        android:inputType="number|numberDecimal"
+                        android:maxLength="8"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                    <Button
+                        android:id="@+id/setValueFloatBt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/button_selector"
+                        android:text="设置Float"
+                        android:textAllCaps="false"
+                        android:textColor="#ffffff"
+                        android:textSize="12sp" />
+
+                    <Button
+                        android:id="@+id/getValueFloatBt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/button_selector"
+                        android:text="获Float取值"
+                        android:textAllCaps="false"
+                        android:textColor="#ffffff"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="String"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/frame">
+
+
+                    <EditText
+                        android:id="@+id/inputStrKeyEt"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center"
+                        android:hint="key"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/inputStrValueEt"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center"
+                        android:hint="value"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                    <Button
+                        android:id="@+id/setValueStrBt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/button_selector"
+                        android:text="设置Str"
+                        android:textAllCaps="false"
+                        android:textColor="#ffffff"
+                        android:textSize="12sp" />
+
+                    <Button
+                        android:id="@+id/getValueStrBt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/button_selector"
+                        android:text="获Str取值"
+                        android:textAllCaps="false"
+                        android:textColor="#ffffff"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Enum"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/frame">
+
+
+                    <EditText
+                        android:id="@+id/inputEnumKeyEt"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center"
+                        android:hint="key"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/inputEnumValueEt"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center"
+                        android:hint="value"
+                        android:inputType="number"
+                        android:maxLength="8"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                    <Button
+                        android:id="@+id/setValueEnumBt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/button_selector"
+                        android:text="设置Enum"
+                        android:textAllCaps="false"
+                        android:textColor="#ffffff"
+                        android:textSize="12sp" />
+
+                    <Button
+                        android:id="@+id/getValueEnumBt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/button_selector"
+                        android:text="获Enum取值"
+                        android:textAllCaps="false"
+                        android:textColor="#ffffff"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EnumByString"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/frame">
+
+
+                    <EditText
+                        android:id="@+id/inputEnumByStrKeyEt"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center"
+                        android:hint="key"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/inputEnumByStrValueEt"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center"
+                        android:hint="value"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                    <Button
+                        android:id="@+id/setValueEnumByStrBt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/button_selector"
+                        android:text="设置Enum"
+                        android:textAllCaps="false"
+                        android:textColor="#ffffff"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Command"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/frame">
+
+
+                    <EditText
+                        android:id="@+id/inputCommandKeyEt"
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center"
+                        android:hint="key"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+
+                    <Button
+                        android:id="@+id/setValueCommandBt"
+                        android:layout_width="110dp"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/button_selector"
+                        android:text="设置Command"
+                        android:textAllCaps="false"
+                        android:textColor="#ffffff"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/frame">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

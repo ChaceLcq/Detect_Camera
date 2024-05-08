@@ -1,0 +1,1 @@
+include ':App', ':BaseModule', ':GetBitmap', ':opencv'

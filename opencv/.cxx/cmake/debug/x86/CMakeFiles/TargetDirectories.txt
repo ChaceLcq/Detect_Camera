@@ -1,0 +1,3 @@
+D:/AI/OpenCV_Android_HoughLines/sdk/.cxx/cmake/debug/x86/CMakeFiles/opencv_jni_shared.dir
+D:/AI/OpenCV_Android_HoughLines/sdk/.cxx/cmake/debug/x86/CMakeFiles/edit_cache.dir
+D:/AI/OpenCV_Android_HoughLines/sdk/.cxx/cmake/debug/x86/CMakeFiles/rebuild_cache.dir
